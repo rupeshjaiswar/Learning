@@ -1,0 +1,26 @@
+@mixin header-style($color, $font, $bgcolor) {
+    color: blue;
+    font-size: $font;
+    background-color: $bgcolor;
+}
+
+@mixin border-style ($color:green, $width:2px, $bgcolor) {
+    border: $color solid $width;
+    background-color: $bgcolor;
+}
+
+h2 {
+    @include header-style(green, 20px, orange)
+}
+
+h3 {
+    @include header-style(magenta, 20px, yellow)
+}
+
+p {
+    @include border-style($bgcolor: beige)
+}
+
+p#mystyle {
+    @include border-style(blue, yellow, 4px)
+}

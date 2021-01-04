@@ -1,0 +1,15 @@
+h2 {
+  background-color: red;
+  color: blue;
+  font-size: 30px;
+}
+
+p {
+  background-color: magenta;
+  color: yellow;
+  font-size: 25px;
+}
+
+h2 {
+  background-color: magenta;
+}

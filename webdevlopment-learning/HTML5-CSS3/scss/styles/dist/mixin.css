@@ -1,0 +1,27 @@
+h1 {
+  background-color: yellow;
+  letter-spacing: 3px;
+  color: blue;
+  text-transform: uppercase;
+  text-transform: lowercase;
+}
+
+h2 {
+  background-color: yellow;
+  letter-spacing: 3px;
+  color: blue;
+  text-transform: uppercase;
+  color: blue;
+}
+
+h3 {
+  background-color: yellow;
+  letter-spacing: 3px;
+  color: blue;
+  text-transform: uppercase;
+}
+
+p {
+  background-color: bisque;
+  color: purple;
+}
