@@ -1,0 +1,8 @@
+{
+    "name": "Rupesh",
+    "id": "123",
+    "salary": 10000,
+    "address": { "city": "Mumbai", "state": "Maharashtra", "pincode": 400072 },
+    "department": { "department_name": "Sales", "department_head": "John" }
+
+}
