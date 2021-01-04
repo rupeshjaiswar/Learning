@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function message() {
+
+            if (confirm('You are moving out of this page do you want to leave')) {
+                alert("Bye Bye")
+                document.myform.submit();
+
+            } else {
+
+                alert("Thanks for staying back");
+
+            }
+
+        }
+    </script>
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <form action="forjs.html" name="myform">
+
+        Comments <textarea name="area" id="" cols="30" rows="10"></textarea>
+        <input type="button" value="click here" id="click" onclick="message()">
+
+
+
+    </form>
+
+
+
+
+</body>
+
+
+
+</html>

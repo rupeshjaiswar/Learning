@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <script>
+        function validateForm() {
+            username = document.getElementById("username").value;
+            if (username = "" || username.length < 3) {
+                alert("Enter your name");
+                document.myform.uname.focus();
+            } else if (document.getElementById("password").value == "") {
+                alert("Enter your Password");
+                document.myform.pass.focus();
+            } else if ((document.getElementById("gen1").checked == "") && (document.getElementById("gen1").checked == "")) {
+                alert("Enter your Gender");
+            } else {
+                alert("You are registered");
+                document.myform.submit();
+
+            }
+
+        }
+    </script>
+
+
+
+
+</head>
+
+
+<body>
+
+    <form action="forjs.html" name="myform">
+
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td> <input type="text" name="uname" id="username" placeholder="Enter Name"></td>
+
+
+
+
+
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td> <input type="password" name="pass" id="password"></td>
+            </tr>
+
+            <tr>
+                <td>Age:</td>
+                <td>
+                    <input type="text" name="age" id="age">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male" id="gen1">Male
+                    <input type="radio" name="gender" value="Female" id="gen2">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="Click here" id="button" onclick="validateForm()">
+                </td>
+            </tr>
+
+
+
+
+
+        </table>
+
+
+
+
+
+
+
+    </form>
+
+
+</body>
+
+
+
+
+</html>
