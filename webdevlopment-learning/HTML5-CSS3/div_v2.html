@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Using Div</title>
+    <style>
+        div {
+            display: inline-block;
+        }
+        
+        #div1 {
+            border-radius: 10px 20px 20px 10px;
+            /* topleft, topright, bottomright, bottomleft */
+        }
+        
+        #div2 {
+            border-radius: 10px 30px 10px;
+            /* topleft topright&bottomleft, bottomright*/
+        }
+        
+        #div3 {
+            border-radius: 10px 30px;
+            /* topleft&bottomright topright&bottomleft */
+        }
+        
+        #div4 {
+            border-radius: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="div1" style="background-color: green;width:100px;height: 100px"></div>
+    <div id="div2" style="background-color: purple;width:100px;height: 100px"></div>
+    <div id="div3" style="background-color: blue;width:100px;height: 100px"></div>
+    <div id="div4" style="background-color: orange;width:100px;height: 100px"></div>
+</body>
+
+</html>

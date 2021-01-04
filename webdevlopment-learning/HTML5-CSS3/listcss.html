@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul li {
+            text-transform: uppercase;
+            color: green;
+            font-size: large;
+        }
+        
+        #cartoon li:first-child {
+            color: red;
+        }
+        
+        ul li #last {
+            color: brown;
+        }
+        
+        ol li {
+            color: blue;
+            font-size: large;
+        }
+        
+        ol li:last-child {
+            color: chartreuse;
+        }
+        
+        #tom {
+            color: purple;
+        }
+        
+        #last li:first-child {
+            float: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul style="list-style: square;">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+    </ul>
+
+    <ol style="list-style: upper-alpha;" id="cartoon">
+        <li>hello</li>
+        <li>Hiiii</li>
+        <li>Heyyy</li>
+    </ol>
+
+    <ul style="list-style: none;" id="last">
+        <li id="tom">Tom</li>
+        <li>Dick</li>
+        <li>Harry</li>
+    </ul>
+
+
+</body>
+
+</html>
